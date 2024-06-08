@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://www.alll.com/wp-content/uploads/2019/01/signup-background-1024x477.jpg');
+  }
+  
+  .main {
+    text-align: center
+  }
+  
+  
+  .main form,
+  .main .details {
+    width: 900px;
+    border: 5px solid #111111;
+    margin: 15px;
+    padding: 18px;
+    text-align: center;
+    margin-left: 630px;
+  }
+  
+  .main .details > div {
+    margin: 10px;
+    font-weight: 800;
+  }
+  
+  .main .details > h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+  }
+  
+  input[type="tel"],
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 300px;
+  }
+  
+  input{
+    padding: 8px;
+    margin: 13px;
+  }
+  
+  
+  button {
+    padding: 10px;
+    width: 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(177, 246, 40);
+    background-color: rgb(102, 28, 223);
+    border: none;
+   
+  }
+  
+  h2 {
+    margin: 10px;
+    padding: 15px 15px 0px 15px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .errorMsg {
+    padding: 10px;
+    margin: 0px;
+    font-size: 11px;
+    color: red;
+  }
+  .input-group {
+   align-items: center;
+  }
+  select{
+    padding: 10px;
+    width: 450px;
+    margin:10px;
+  }
+  .box{
+    width:1000px;
+  
+    display: flex;
+   position:absolute;
+   height: 800px;
+  justify-content: center;
+   align-items: center;
+  
+  }
+  .email1{
+    margin-left: 45px;
+  }
+  .input1{
+    width: 300px;
+    margin-right: 49px;
+  }
+  .select1{
+    width: 320px;
+    margin-left: 30px;
+  }
+  .select2{
+    width: 320px;
+    margin-left: 50px;
+  }
+  .password-container {
+    margin-left: 82px;
+  }
+  .row1{
+    margin-right: 35px;
+  }
+ .login-prompt{
+  margin-top: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .login-link{
+  text-decoration: none;
+  color: #111111;
+  font-weight: 800;
+  margin-top: 20px;
+ }
+ 
